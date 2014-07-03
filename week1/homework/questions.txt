@@ -3,9 +3,23 @@ Read POODR:
 
 Work on Solitaire exercise
 
-If you haven't already, add file uploads to a rails app using carrierwave
+If you haven't already, add file uploads to a rails app using carrier wave
 
 extra credit: Read/skim chapter 3 of Microscope
 
-
 come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
+
+Questions:
+
+1. I enjoyed reading the part about "Technical debt", and software design. Unfortunately I feel like my current employer is forcing a lot of technical debt onto me. Have you or anyone dealt with employers or clients that push on a lot of technical debt? How did you handle the situation? 
+
+2. Can a program both utilize OOD and procedural elements? 
+
+3. When did OOD begin to take a foot hold in computer programming? How did it come about?
+
+4. In the start of the first chapter the author talked about how many people see the world in a procedural manner. Do you have any thoughts on how to break a person of this habit and look at problems in more of a objected oriented manner?
+
+5. What is declarative programming?
+
+Notes: 
+

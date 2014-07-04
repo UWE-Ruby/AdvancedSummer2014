@@ -1,0 +1,37 @@
+require './deck.rb'
+
+
+describe Deck do
+
+  before do
+        @deck = Deck.new
+  end
+  
+  it "should create a deck of 54 cards" do
+    expect(@deck.cards.size).to eq(54)
+  end
+
+  it "should contain an A joker" do 
+    expect(@deck.cards).to include("A")
+  end
+
+  it "should contain a B joker" do
+    expect(@deck.cards).to include("B")
+  end
+
+  it "moves A back one card" do
+    expect(@deck.cards.index("A")).to eq(52)
+    @deck.move_joker_a
+    expect(@deck.cards.index("A")).to eq(53)
+  end
+
+  it "moves B back two cards" do
+    expect(@deck.cards.index("B")).to eq(53)
+    @deck.move_joker_b
+    expect(@deck.cards.index("B")).to eq(1)
+  end
+
+  it "should find the top joker" do
+    expect(@deck.cards[@deck.find_top_joker]).to eq("A")
+  end
+end

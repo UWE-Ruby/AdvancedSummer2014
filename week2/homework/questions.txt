@@ -1,0 +1,10 @@
+Read POODR: Chapter 3 and 4 up to “Seeking Context Independence” - be ready to look at code examples for these principles and discuss
+
+Work on Single REsponsibility CLasses and Methods for the Solitaire exercise
+
+Try adding Github or Facebook authentication to a rails app
+
+Think about:
+  What is a public interface?
+  Where in your previous code did you violate single responsibility?
+  Go back and draw a Sequence Diagram for your tic-tac-toe game, or Ruby gem

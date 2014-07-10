@@ -17,5 +17,5 @@ class Cypher
 	def group_charaters
 		@string = @string.scan(/.{5}|.+/).join(" ")
 	end
-
+	
 end

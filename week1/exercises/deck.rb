@@ -4,12 +4,7 @@ class Deck
 
   def initialize
     @cards = (1..52).to_a << "A" << "B"
-    @alphabet = { :A => 1, :B => 2, :C => 3, :D => 4, 
-    :E => 5, :F => 6, :G => 7, :H => 8, :I => 9, 
-    :J => 10, :K => 11, :L => 12, :M => 13, :N => 14, 
-    :O => 15, :P => 16, :Q => 17, :R => 18, :S => 19, 
-    :T => 20, :U => 21, :V => 22, :W => 23, :X => 24, 
-    :Y => 25, :Z => 26 }
+    @alphabet = ("A".."Z").to_a
   end
 
   def move_joker_a
@@ -59,11 +54,20 @@ class Deck
     n = @cards.first
     n = 53 if n.instance_of? String
     output = @cards[n]
+    puts output
     if output.instance_of? String
       nil
     else
-      output
+      if output > 26 
+        find_letter(output - 26)
+      else
+        find_letter(output)
+      end
     end
+  end
+
+  def find_letter(output)
+    @alphabet[output - 1]
   end
 
 

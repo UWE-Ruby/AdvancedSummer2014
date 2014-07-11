@@ -1,10 +1,24 @@
 Read POODR: Chapter 3 and 4 up to “Seeking Context Independence” - be ready to look at code examples for these principles and discuss
 
 Work on Single REsponsibility CLasses and Methods for the Solitaire exercise
+	I am moving slowly on the solitaire exercise
 
 Try adding Github or Facebook authentication to a rails app
+	I have the Facebook authentication on findit application. 
 
 Think about:
-  What is a public interface?
-  Where in your previous code did you violate single responsibility?
-  Go back and draw a Sequence Diagram for your tic-tac-toe game, or Ruby gem
+What is a public interface?
+
+Poodr gives a restaurant kitchen example to explain it, so simply, a customer should order there meal and have it served to them, the menu constitutes the public interface without meeting to go behind into the kitchen. There is a good discussion about the Public and Private interfaces that are covered in POODR, I read through this and I think what he said is valid: 
+
+http://chriskohlbrenner.github.io/blog/2014/04/28/poodr-ch-4/
+
+Where in your previous code did you violate single responsibility?
+In the wanderer I violate the SRP pattern because I use Active Record and it does violates SPR by design. 
+
+http://www.sitepoint.com/solid-ruby-single-responsibility-principle/
+
+Go back and draw a Sequence Diagram for your tic-tac-toe game, or Ruby gem
+
+Included as an image
+

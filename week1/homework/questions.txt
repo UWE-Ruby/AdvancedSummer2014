@@ -5,7 +5,12 @@ Work on Solitaire exercise
 
 If you haven't already, add file uploads to a rails app using carrierwave
 
+  https://github.com/jatla/theblog/commit/9395887d0c23ab832fe1f279a8d20fb90b9b087e
+
 extra credit: Read/skim chapter 3 of Microscope
 
-
 come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
+
+1. Immutability of Ruby classes/data structures & performance implications
+2. Pros and cons of using Enumerable::Lazy module
+3. Implications of making Ruby Array to support list behavior, where as other mainstream languages have a seperate datastructure for same. How is that good when looked through design principle of "Single Responsibility"?

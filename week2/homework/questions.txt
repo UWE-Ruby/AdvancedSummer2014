@@ -3,8 +3,13 @@ Read POODR: Chapter 3 and 4 up to “Seeking Context Independence” - be ready 
 Work on Single REsponsibility CLasses and Methods for the Solitaire exercise
 
 Try adding Github or Facebook authentication to a rails app
+https://github.com/jatla/theblog
+http://this-is-my-blog.herokuapp.com
 
 Think about:
   What is a public interface?
+  	Public interface is a set of methods that define the contract between a class
   Where in your previous code did you violate single responsibility?
+  	All the functionality was embedded in a signle big monolithic class.
   Go back and draw a Sequence Diagram for your tic-tac-toe game, or Ruby gem
+        Sequence diagram is uploaded in this folder.

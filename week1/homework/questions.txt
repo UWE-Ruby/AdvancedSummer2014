@@ -9,7 +9,6 @@ If you haven't already, add file uploads to a rails app using carrierwave
 
 extra credit: Read/skim chapter 3 of Microscope
 
-
 come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
 
 1. Immutability of Ruby classes/data structures & performance implications

@@ -2,8 +2,13 @@ Read POODR:
   Chapter 1 & 2 - be ready to look at code examples for these principles and discuss
 
 Work on Solitaire exercise
+Solitaire repo:
+https://github.com/psytau/RubyQuiz1
+
 
 If you haven't already, add file uploads to a rails app using carrierwave
+Carrierwave feature is here...
+https://github.com/psytau/mobile-podcast-howto/compare/add-carrierwave-feature
 
 extra credit: Read/skim chapter 3 of Microscope
 

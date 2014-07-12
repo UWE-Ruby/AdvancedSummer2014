@@ -1,0 +1,12 @@
+Read POODR: the rest of Chapter 4 and all of chapter 5
+
+Work on dependency management for the Solitaire exercise
+
+Try adding authorization to a rails app
+  pundit
+  cancancan / rolify
+
+Think about:
+  What is coupling between objects (CBO)?
+  How do you find the public interface?
+  Where have you coupled objects in previous code for this class? How would you fix it now? Be ready to show this code to the class - it can be a small example.

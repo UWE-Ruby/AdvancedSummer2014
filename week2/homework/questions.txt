@@ -15,4 +15,5 @@ Think about:
   I don't understand single responsibility enough to answer this question.
 
   Go back and draw a Sequence Diagram for your tic-tac-toe game, or Ruby gem
-  
+  https://github.com/kjlafave/AdvancedSummer2014/blob/master/week2/homework/RadianDegreeConverterDiagram.pdf
+￼￼￼￼￼￼￼￼￼￼￼￼￼

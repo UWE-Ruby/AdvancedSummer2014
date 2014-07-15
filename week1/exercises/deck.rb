@@ -17,8 +17,11 @@ class Deck
 
   def triple_cut
     t_cut = @cards[0, find_top_joker]
+    b_cut = @cards[(find_bottom_joker + 1), @cards.index(@cards.last)]
     @cards = @cards - t_cut
+    @cards = @cards - b_cut
     @cards = (@cards << t_cut).flatten
+    @cards = @cards.unshift(b_cut).flatten   
   end
 
   def count_cut
@@ -41,6 +44,16 @@ class Deck
     end
   end
 
+  def find_bottom_joker
+    a_index = @cards.index("A")
+    b_index = @cards.index("B")
+    if a_index < b_index 
+      b_index
+    else
+      a_index
+    end
+  end
+
   def move_card_down(index)
     if index == 53
       @cards.insert(1, @cards.delete_at(index))
@@ -54,7 +67,6 @@ class Deck
     n = @cards.first
     n = 53 if n.instance_of? String
     output = @cards[n]
-    puts output
     if output.instance_of? String
       nil
     else

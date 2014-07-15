@@ -1,27 +1,36 @@
 require './deck.rb'
+require './cypher.rb'
+require './encrypter.rb'
+require './decrypter.rb'
 
 
-length = 10
-string = ""
+string = "This is a freaking test!! Ruby rules!"
+keystream = ""
+message = Cypher.new(string)
 deck = Deck.new
+length = message.string.delete(' ').length
 
 
-while string.length <= length
-	p deck.cards
+while keystream.length <  length
 	deck.move_joker_a
-	p deck.cards
 	deck.move_joker_b
-	p deck.cards
 	deck.triple_cut
-	p deck.cards
 	deck.count_cut
-	p deck.cards
 	c = deck.get_output_letter
 	if c 
-		string << c
+		keystream << c
 	end
 
 
 end
 
-puts string
+puts keystream.length
+puts message.string.delete(' ').length
+
+encrypter = Encrypter.new(message.string, keystream)
+encrypter.encrypt
+encrypted_message = encrypter.convert_to_letters
+puts encrypted_message
+decrypter = Decrypter.new(encrypted_message, keystream)
+decrypter.decrypt
+puts decrypter.convert_to_letters

@@ -1,9 +1,16 @@
-
 class Cypher
 	attr_accessor :string
 
 	def initialize(string)
 		@string = string
+		format_string
+	end
+
+	private 
+	def format_string
+		remove_invalid_characters
+		capatalize_characters
+		group_charaters
 	end
 
 	def remove_invalid_characters

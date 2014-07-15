@@ -1,0 +1,29 @@
+require './solitare.rb'
+
+
+
+describe "solitare script" do
+  test_string = "This is only a test!"
+
+  it "should discard any non A to Z charaters" do
+  	new_string = remove_invalid_characters(test_string)
+  	new_string.should match "Thisisonlyatest" 
+  end
+
+  it "should capitalize all the characters" do
+  	cap_string = capatalize_characters(test_string)
+  	cap_string.should match "THIS IS ONLY A TEST"
+
+  end
+
+  it "should split messages into five character groups" do
+  
+
+  end
+
+  it "should convert the string to numbers" do
+  
+  end
+
+
+end

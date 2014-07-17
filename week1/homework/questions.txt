@@ -1,11 +1,41 @@
-Read POODR:
-  Chapter 1 & 2 - be ready to look at code examples for these principles and discuss
+Sarah Wheeler
+Ruby DL310
+June 30, 2014
+
+						Week 1 Homework
+
+
+Read POODR: --done
+  Chapter 1 & 2 - be ready to look at code examples 
+  for these principles and discuss
 
 Work on Solitaire exercise
 
-If you haven't already, add file uploads to a rails app using carrierwave
+If you haven't already, add file uploads to a rails 
+app using carrierwave --done
+  https://github.com/sarahwheeler/cultivate
 
-extra credit: Read/skim chapter 3 of Microscope
+Extra credit: Read/skim chapter 3 of Microscope --in-progress
+	Waiting for book to arrive from Amazon
 
+Come prepared with 3 questions or discussion items 
+(can be code related) about the reading and/or exercise --done
 
-come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
+	1. Sandi Metz tells us that agile development promotes 
+		 flexible software designs that exactly fulfill the needs 
+		 of its client or user. Of the testing frameworks we've 
+		 touched on--RSpec, Cucumber, and MiniTest--which would be 
+		 best suited for a project that uses agile development?
+	2. The first two chapters of POODR included several acronyms 
+		 intended to help readers create clean class designs. What do 
+		 the following acronyms stand for?
+		 			1. DRY
+		 			2. SOLID
+		 			3. TRUE
+		 			4. Bonus: SLOC, OOD, BUFD
+	3. Despite the popularity of test-driven development (TDD) 
+		 among Rubyists, David Heinemeier Hansson, the creator of 
+		 Rails, recently critized what he believes to be its overuse 
+		 (http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html). 
+		 What side of this argument do you fall on, and 
+		 what evidence or experience led you to this opinion?

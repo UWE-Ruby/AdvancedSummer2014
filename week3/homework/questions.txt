@@ -1,12 +1,36 @@
-Read POODR: the rest of Chapter 4 and all of chapter 5
+Sarah Wheeler
+Ruby DL310
+July 14, 2014
 
-Work on dependency management for the Solitaire exercise
+						Week 3 Homework
 
-Try adding authorization to a rails app
+Read POODR: the rest of Chapter 4 and all of chapter 5 --done
+
+Work on dependency management for the Solitaire exercise --done
+
+Try adding authorization to a rails app --done with CanCan
   pundit
   cancancan / rolify
 
+  See https://github.com/sarahwheeler/cancan_test
+
 Think about:
-  What is coupling between objects (CBO)?
-  How do you find the public interface?
-  Where have you coupled objects in previous code for this class? How would you fix it now? Be ready to show this code to the class - it can be a small example.
+  
+  1. What is coupling between objects (CBO)?
+
+  		CBO refers to the interconnectivity of objects; in other words, where and how often objects reference other objects. In POODR, Metz sets up an example of a Trip class that needs to have several other classes respond to a prepare_trip method; the challenge is setting this up so that Trip doesn't break whenever you make a change to the other classes it relies on. The main point is that in order to keep your code flexible and easy to change/manage, you need to limit CBO wherever possible (duck typing being a great solution).  
+
+  2. How do you find the public interface?
+
+  		You can find the public interface several ways. The most obvious is to look for methods that do not fall under either the 'protected' or 'private' keywords. The public interface can also be inferred by sniffing out the most stable code that's the least likely to change, and should be (very) loosely coupled. It's the front-facing "menu" code.
+
+  3. Where have you coupled objects in previous code for this class? How would you fix it now? Be ready to show this code to the class - it can be a small example.
+
+  		In my Log2Layout gem from the first quarter, I had an ImageScraper class that used the Mechanize and Logger gems, and had a scrape method. Behold, the very first line of the method:
+  		
+  			def scrape
+  				site_seeker = Mechanize.new { |a| a.log = Logger.new("#{File.dirname(@location)}/images/scrape_summary.log") }
+  				# ...
+  			end
+
+

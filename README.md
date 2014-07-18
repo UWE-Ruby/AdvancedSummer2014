@@ -20,6 +20,16 @@ Repository for the Advanced Section of the Ruby on Rails Cert Summer 2014 Online
    * Solitare Cypher - How can POODr help us with this?
 
 == Week 4
-   * I18n
-   * Pagination/Sorting
+   * Rails: I18n
+   * Ruby: JRuby
    * Duck Typing
+
+== Week 5
+   * JRuby on Rails
+   * RuboCop
+   * Simple Cov
+   * Upgrading from Rspec 2 to 3
+
+== Week 6
+   * AJAX
+   * Pagination/Sorting

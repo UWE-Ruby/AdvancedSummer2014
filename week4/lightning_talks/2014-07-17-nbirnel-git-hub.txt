@@ -1,0 +1,66 @@
+why?
+  - speed up repetitive tasks eg adding new repos and forking
+  - avoiding switching window focus
+  - new possibilities with a scripted interface
+
+how?
+the github api
+   https://developer.github.com/libraries/
+  - lots of learning and scripting
+  - just fine for one or two commands
+git hub
+  - comprehensive enough for me, for now
+  - rather large (3754 sloc sh, 98 sloc perl, 57 sloc ruby)
+  - already written for you!
+
+git hub installation
+  git clone git@github.com:ingydotnet/git-hub
+  sudo make install
+  git hub setup
+
+what am I using?
+  - git hub repo-new <repo>
+  - git hub fork <owner>/<repo>
+  - git hub repo-edit <repo> description
+
+what looks silly?
+  - git hub clone <owner>/<repo>
+    (This could just be done with git clone, yes?)
+
+what could be interesting?
+  forks = `git hub forks --raw UWE-Ruby/AdvancedSummer2014`.split("\n")
+  users = forks.map{|f| f.split("/").first}
+  n_repos = users.map{|u| `git hub user-get #{u} public_repos`.chomp.to_i}
+
+  def median(array)
+    sorted = array.sort
+    len = sorted.length
+    (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
+  end
+
+  mean_repos = n_repos.reduce(:+) / users.size.to_f
+  median_repos = median n_repos
+
+  ie, what are the mean and median averages
+  of the number of github repos per student?
+
+  Renée suggests that she could automate grading homework by pulling down 
+  everyone's work and running tests in one fell swoop.
+
+what's the takeaway?
+  - Just because there's a web service
+    doesn't always mean the browser is the only or best UI for it.
+  - switching window focus can mean switching your mental focus
+  - As a user: Tools you want are often out there (not just gems!)
+  - As a dev: Please make your interfaces scriptable!
+      web: RESTful, published api
+      cli: no "fluff" in the output
+      gui: exposed & published api, or scripting engine - 
+        some way of getting at the command underneath the clicks
+      You don't know what your users might want to do. Let them find out.
+        
+END
+This document is available as part of:
+https://github.com/nbirnel/lightning-talks
+LICENSE:
+Share and enjoy.

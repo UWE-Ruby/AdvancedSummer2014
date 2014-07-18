@@ -1,0 +1,9 @@
+Read POODR: chapter 6
+
+Work on duck Typeing for the Solitaire exercise
+
+Try adding I18n to a rails app
+
+Think about:
+  When should you use inheritance? 
+  When is inheritance contraindicated?

@@ -1,12 +1,20 @@
 Read POODR: the rest of Chapter 4 and all of chapter 5
 
 Work on dependency management for the Solitaire exercise
+https://github.com/kjlafave/SolitaireCipherQuiz
 
 Try adding authorization to a rails app
   pundit
-  cancancan / rolify
+  cancancan / rolify  
+https://github.com/kjlafave/calorie_tracker
+http://serene-castle-4224.herokuapp.com/
 
 Think about:
   What is coupling between objects (CBO)?
+  The objects are dependent on each to perform their intended function.
+
   How do you find the public interface?
+  By creating sequence diagrams
+
   Where have you coupled objects in previous code for this class? How would you fix it now? Be ready to show this code to the class - it can be a small example.
+  I think the rails generators do a good job of minimizing coupling. Looking at my calorie_tracker, I don't see any place I would make changes. The existing coupling is necessary for the application to run properly.

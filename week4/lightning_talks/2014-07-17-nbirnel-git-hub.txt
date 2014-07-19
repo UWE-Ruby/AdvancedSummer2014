@@ -5,6 +5,7 @@ why?
 
 how?
 the github api
+   https://developer.github.com/v3/
    https://developer.github.com/libraries/
   - lots of learning and scripting
   - just fine for one or two commands

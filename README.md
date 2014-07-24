@@ -35,7 +35,9 @@ Repository for the Advanced Section of the Ruby on Rails Cert Summer 2014 Online
 
 ***
 
-## Build a Rails application for managing library books:
+## Final Certificate Required Project
+
+### Build a Rails application for managing library books:
 	1.	Anyone can see all the book titles and ratings in the library
 	2.	You must login to add library books
 	3.	Admin must approve the addition of lib books

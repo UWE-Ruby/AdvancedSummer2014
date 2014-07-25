@@ -1,0 +1,83 @@
+vim-rails - a plugin for the text editor Vim
+
+Should you care if you are not a Vim user?
+
+What would DHH do?
+
+John McPhee and Kedit
+http://www.newyorker.com/magazine/2013/01/14/structure
+
+Candy Crush Saga
+=================
+
+vimscript sucks
+http://learnvimscriptthehardway.stevelosh.com/
+a lot of plugins overwrite default behavior/keybindings in scary ways
+Tim Pope!
+https://github.com/tpope/vim-rails
+https://github.com/tpope/vim-rake
+
+installation:
+use pathogen!
+https://github.com/tpope/vim-pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+echo '"use pathogen for vim package management:
+" cd ~/.vim/bundle
+" git clone git://git/repository
+" use :Helptags to make documentation searchable
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+' >>~/.vimrc
+
+then...
+cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-rails.git
+git clone git://github.com/tpope/vim-bundler.git
+vim 
+:Helptags
+:help rails-introduction
+:help rails-vim-integration
+
+gf - finds the file that defines the class
+
+:A ("alternate") - usually the test
+:R ("related") - varies, may depend on location within file
+from models/user.rb
+:A -> test/models/user_test.rb
+
+:E ("edit") - 
+:E(thing)
+
+plus 4 more forms
+:S ("split")
+:V ("vertical split")
+:T ("tab")
+:D ("destructive"?)
+
+:Rails
+===============
+take-away:
+Don't get trapped in a closed source editor
+Your tools may influence how you design 
+Script your editor
+go slow with customization
+Check out other editors
+
+Steal!
+
+Jason Swat points out NERDTree:
+(browse dir structure in a tree style inside vim)
+http://www.vim.org/scripts/script.php?script_id=1658
+
+Renée points out:
+(acme-like console / editor where all text is executable)
+http://xiki.org/
+
+END
+This document is available as part of:
+https://github.com/nbirnel/lightning-talks
+LICENSE:
+Share and enjoy.

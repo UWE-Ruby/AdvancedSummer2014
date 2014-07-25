@@ -1,3 +1,5 @@
+# vim: wrap: colorcolumn=0
+
 Read POODR: Chapter 3 and 4 up to “Seeking Context Independence” - be ready to look at code examples for these principles and discuss
 
 Work on Single REsponsibility CLasses and Methods for the Solitaire exercise

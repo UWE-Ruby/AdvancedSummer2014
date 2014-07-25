@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww13860\viewh8840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs24 \cf0 Build a Rails application for managing library books:
+\b0 \
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	1.	}Anyone can see all the book titles and ratings in the library\
+{\listtext	2.	}You must login to add library books\
+{\listtext	3.	}Admin must approve the addition of lib books\
+{\listtext	4.	}You must be logged in to rate a book\
+{\listtext	5.	}To rate a book you must click on stars\
+{\listtext	6.	}You can give a book 1-5 stars\
+{\listtext	7.	}You can add a review to any book\
+{\listtext	8.	}You can only edit/destroy books you entered into the system\
+{\listtext	9.	}If a book has ratings or reviews, you can not destroy it, only deactivate it\
+{\listtext	10.	}Deactivated books can not get new reviews or ratings\
+{\listtext	11.	}Users can receive emails when their books get rated or reviewed\
+{\listtext	12.	}Users can "follow" books - which means they get email notifications on ratings and reviews\
+{\listtext	13.	}Users can opt out of all or by book rating emails \
+{\listtext	14.	}Users can opt out of all or by book review emails\
+{\listtext	15.	}Users can configure their email preferences\
+{\listtext	16.	}Users can ask to receive a daily digest of email notifications instead of individual notifications\
+{\listtext	17.	}Books must have a picture associated with them to be approved\
+{\listtext	18.	}Admins can block users from creating ratings or reviews in the system\
+{\listtext	19.	}Books should be searchable by title, author, ISBN, tags, ratings, and reviews \
+{\listtext	20.	}Admins can see a report of activities by User: Most active* users, Users who give the lowest ratings, Users who give the highest ratings, Users who login most often, Users with the most reviews, and Users who enter the most books.\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	21.	}Book and review listings are sortable, and paginated (default sort for Books and Reviews is rating)\
+{\listtext	22.	}Admins can create/invite other admins\
+{\listtext	23.	}Users can invite other users\
+{\listtext	24.	}Admins can login as any other user in the system\
+{\listtext	25.	}When an Admin logs in as another user, the Admin's activities do not impact the User's activity ratings in the system\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\cf0 *Active is the combined score of number of logins, number of ratings, number of owned books, number of reviews.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+
+\b Requirements for Passing:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls2\ilvl0
+\b0 \cf0 {\listtext	1.	}80% of the above items implemented (20/25)\
+{\listtext	2.	}Code Climate grades = your grade on the project (need a 3.0 or better to pass)\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls2\ilvl0\cf0 {\listtext	3.	}100% code test coverage via Simple Cov \
+{\listtext	4.	}Github repo linked to Pivotal Tracker\
+{\listtext	5.	}Pivotal Tracker project to track requirements, and development tasks from above list and any additional things you realize you need to do (each commit message must be linked to a PT ticket)\
+{\listtext	6.	}ReadMe with setup instructions for your app and CodeClimate Badge\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b \cf0 Nice to Haves:
+\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 Deployed to Heroku\
+Tests running on Travis (with ReadMe badge)\
+Travis linked to Code Climate for test coverage (if your app uses more than 1 test framework, like rspec and cucumber, I will take the Simple Cov coverage number instead of Code Climate coverage number)  (with ReadMe badge from Code Climate)\
+RuboCop runs as part of your test suite\
+}

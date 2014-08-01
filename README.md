@@ -73,7 +73,7 @@ Repository for the Advanced Section of the Ruby on Rails Cert Summer 2014 Online
 	4.	Github repo linked to Pivotal Tracker
 	5.	Pivotal Tracker project to track requirements, and development tasks from above list and any additional things you realize you need to do (each commit message must be linked to a PT ticket)
 	6.	ReadMe with setup instructions for your app and CodeClimate Badge
-
+	7.	Should not be ugly (twitter-bootsrapt, Zurb foundation, or your own styles applied is fine, but something nicer than default rails stuff.)
 ## Nice to Haves:
 * Deployed to Heroku
 * Tests running on Travis (with ReadMe badge)

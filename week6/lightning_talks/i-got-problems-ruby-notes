@@ -1,0 +1,67 @@
+why am I complaining about ruby?
+  - we all know / are learning what is cool about ruby
+  - I want to figure out what I am missing vs what is actually a problem 
+  - I arbitrarily propose that languages differ more by their cultural problems 
+    than by their cool points. (I won't try to prove this).
+
+language:
+  - aliased methods (reduce/inject, map/collect, next/succ)
+  - too many methods!
+    115 string methods
+  - no real constants
+  - no increment / decrement operators
+    probably a feature
+  - need to use Proc to pass two blocks to a method.
+    (This is why lispers sneer at us)
+
+culture:
+  - Those who do not study Unix will be condemned to repeat it!
+    insular mindset - ruby infrastructure recreates *nix - not make, apt-get, man
+    users shouldn't need to care what language you write in 
+    - rake v make
+      "Only have to know ruby, not make" - rake a subset of ruby
+      But I need make for other things - instead rake is a 2nd dsl to learn
+      can be verbose compared to make
+      encourages functional / imperative rather than logic
+    - rvm / gem / bundle vs *nix package managers
+      ignoring PMs generates conflicts (see non-system rubys and readline)
+      seems oriented towards programmers (who wish to have many parallel installs)
+        vs users (who would like to simply install a package)
+    - man pages
+      standard gem pattern does install "correctly" (since per-user)
+      most gems don't have them
+      no infrastructure for them (md2man, etc?)
+  - hot comments
+    http://c2.com/cgi/wiki?HotComments  
+    https://en.wikipedia.org/wiki/Ruby_Document_format
+    ruby *has* rd - why are we using comments for documentation?
+  - DSL frenzy 
+  - Rails is poisonous
+    "magic".is_a? Complement
+    Rails == ruby
+    focus on web-dev leads to... (PM / man page stuff discussed above)
+    so many files, the only practical VC is "git add ."
+  - Mac-centric
+    (core team has done a fine job of keeping things portable)
+    blogs seem to always say "brew install" and "System Preferences"
+    OS X a fine media and creative platform, but...
+    expensive per machine, and frequent hardware upgrades
+      (where "frequent" means "more often than every 10 years")
+    so not feasible for developing world, or developed world lower class.
+
+
+count_ruby_methods() {
+    # call this function with "String" or "Array", eg
+    lynx -dump http://www.ruby-doc.org/core-2.1.2/"$1".html |\
+    sed '1,/^Methods/d' |\
+    sed '/^Included Modules/,$d' |\
+    sed '/^$/d' |\
+    wc
+}
+
+END
+This document is available as part of:
+https://github.com/nbirnel/lightning-talks
+LICENSE:
+Share and enjoy.
+

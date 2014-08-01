@@ -28,7 +28,7 @@ culture:
       seems oriented towards programmers (who wish to have many parallel installs)
         vs users (who would like to simply install a package)
     - man pages
-      standard gem pattern does install "correctly" (since per-user)
+      standard gem pattern does not install "correctly" (since per-user)
       most gems don't have them
       no infrastructure for them (md2man, etc?)
   - hot comments

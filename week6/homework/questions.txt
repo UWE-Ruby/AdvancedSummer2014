@@ -1,0 +1,6 @@
+Read: Microscope Chapter 7 and Chapter 10
+
+Reading Questions:
+	1. When would I use JRuby instead of MRI or YARV?
+	2. How does Ruby handle Hash collisions?
+	3. What is a linked list and why is it important to Ruby? What cool functionality does Ruby have that would not be possible without a linked list?

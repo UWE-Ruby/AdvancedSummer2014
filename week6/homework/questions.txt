@@ -1,4 +1,5 @@
 Read: Microscope Chapter 7 and Chapter 10
+      Read Everything through Chapter 7
 
 Reading Questions:
 	1. When would I use JRuby instead of MRI or YARV?

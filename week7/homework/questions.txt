@@ -1,0 +1,5 @@
+POODR: Through Chapter 9
+Pre-Reading:
+http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html
+will Paginate AJAX: http://stackoverflow.com/questions/13787431/ajax-call-in-rails-3-2-3-with-will-paginate-gem/13975268
+

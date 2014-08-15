@@ -24,14 +24,31 @@ Repository for the Advanced Section of the Ruby on Rails Cert Summer 2014 Online
    * Duck Typing
 
 ## Week 5
-   * JRuby on Rails
    * RuboCop
    * Simple Cov
-   * Upgrading from Rspec 2 to 3
 
 ## Week 6
+   * Pagination
+   * Working with tools on remote teams
+
+## Week 7
+   * Sorting
+   * Search
+   * Styles?
+
+## Week 8
    * AJAX
-   * Pagination/Sorting
+   * JS Frameworks - Angular / Ember
+   * Angular on Rails
+
+## Week 9
+   * Performance Testing
+   * JRuby on Rails
+   * New Relic / Airbrake / Errbit
+   * Performance Testing Ruby
+
+## Week 10
+   * Fun Stuff
 
 ***
 

@@ -9,3 +9,11 @@ extra credit: Read/skim chapter 3 of Microscope
 
 
 come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
+
+	Can you clarify how we're supposed to turn in the exercises we do for class? For example, for the rails_blog we're working on, do we just include a link to the repository in a pull request?
+
+	Can you do a quick walkthrough of setting up postgres sometime during office hours? I followed the first week's lecture/video step-by-step, but I'm having some trouble getting the login information (username and password) to work correctly. I keep getting error message whenever I try to connect to localhost or create the rails_blog app with postgres.
+
+	On page 10 of POODR, Sandi mentions that there are numerous Ruby gems that help tell you how closely you're following object-oriented design principles. Have you ever used any of these? And if so, do you have any recommendations?
+
+	Can you provide the full syllabus? I'll be working overtime throughout the summer, so knowing in advance which chapters and topics I need to read will help me plan and better use the time I have available.

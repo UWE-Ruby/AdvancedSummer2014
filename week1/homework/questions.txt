@@ -9,3 +9,11 @@ extra credit: Read/skim chapter 3 of Microscope
 
 
 come prepared with 3 questions or discussion items (can be code related) about the reading and/or exercise
+
+
+how has programming or this course changed the way you look at the world?
+for me, it’s changed everything from the way i do my job to the way i pack a lunch or clean my apartment. 
+
+how did you approach the deck portion of the cipher problem?
+
+does thinking about your code from the other classes make you cringe looking back on it now? definite yes for me.
